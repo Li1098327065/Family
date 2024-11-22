@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>牛花和四个宝family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background-color: #ffccd5;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #800020;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #ffccd5;
+            padding: 10px;
+            color: #800020;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        牛花和四个宝family
+    </header>
+    <p>我们是一家人，相亲相爱，温暖幸福的故事从这里开始。</p>
+    <div class="gallery">
+        <img src="./uploads/97b18d7c27446a2e91e1db32bc81ecc.jpg" alt="Family Picture 1">
+        <img src="./uploads/8f2be1d060620617564204cd00aa4ce.jpg" alt="Family Picture 2">
+        <img src="./uploads/ef15b994837113ea8c28abbd9c34ea1.jpg" alt="Family Picture 3">
+        <img src="./uploads/7fe293ea79bfc3b8b0cb444eef2b52b.jpg" alt="Family Picture 4">
+        <img src="./uploads/a4d99a6fe3c84b3616a519ad36b8ea1.jpg" alt="Family Picture 5">
+        <img src="./uploads/23d222ee6c0953047fcbec78cbcde91.jpg" alt="Family Picture 6">
+        <img src="./uploads/72325cb6186cb8a1c23b842c45be939.jpg" alt="Family Picture 7">
+        <img src="./uploads/ee7f89bcd63d5448ec97e96cc6f2b73.jpg" alt="Family Picture 8">
+        <img src="./uploads/3ee9e16409b7e48cf13451c1577bf7d.jpg" alt="Family Picture 9">
+    </div>
+    <footer>
+        © 2024 牛花和四个宝family | 爱与幸福永不止息
+    </footer>
+</body>
+</html>
